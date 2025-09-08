@@ -1,0 +1,173 @@
+      <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="imagem-leo.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Hello! Eu sou Fabielli:)</p>
+        <h1>Meus livros lidos</h1>
+        <p>Sou a aluna Fabielli Alana Gruchowski e estou cursando o 3°ano do ensino médio no 7° Colégio da Polícia Militar do Paraná, gosto
+            de estudar e aprender a matéria de exatas. Gosto muito também de ler diversos tipos de triologias e livros!
+        <p>Meus tipos preferidos de livros:
+        <div>
+            <p class="badge bg-secondary">Ação
+            <p class="badge bg-secondary">Suspense
+            <p class="badge bg-secondary">Fantasia
+            <p class="badge bg-secondary">Ficcção científica
+                <p class="badge bg-secondary">Magia
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus livros lidos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter</h5>
+                        <p class="card-text">A série segue a jornada de Harry Potter, um garoto órfão que descobre ser um bruxo e é enviado para a Escola de Magia 
+                            e Bruxaria de Hogwarts. Lá, ele faz amigos, aprende a controlar seus poderes e descobre que está predestinado a enfrentar o bruxo das 
+                            trevas que matou seus pais, Lorde Voldemort.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Abra resumo do livro</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">The Witcher</h5>
+                        <p class="card-text">A série acompanha Geralt de Rívia, um bruxo caçador de monstros, em um mundo de fantasia medieval cheio de magia, intrigas e criaturas perigosas.
+                             Ele se envolve em uma rede de destino com a princesa Ciri e a feiticeira Yennefer, enquanto navega por um mundo onde o preconceito e a política são tão perigosos 
+                             quanto os monstros que ele caça.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Abra resumo do livro</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogos Vorazes
+                </h5>
+                        <p class="card-text">Em um futuro distópico, a nação de Panem obriga seus 12 distritos a enviarem jovens para os Jogos Vorazes, 
+                            uma competição televisionada em que os participantes lutam até a morte. A protagonista, Katniss Everdeen, 
+                            se voluntaria para salvar sua irmã e se torna um símbolo de rebelião contra a opressão da Capital.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Abra resumo do livro</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Harry Potter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desde o momento em que Harry descobre que não é um garoto comum, mas sim um bruxo, sua vida muda completamente. 
+                        Ele entra em um mundo de magia, castelos antigos e criaturas fantásticas. Em Hogwarts, ele encontra não apenas 
+                        seus melhores amigos, Rony e Hermione, mas também mentores e figuras paternas. No entanto, o passado de Harry o persegue.
+                         A cada ano, os mistérios que cercam a morte de seus pais se aprofundam, e a ameaça de Voldemort se torna cada vez mais
+                          real e presente. A série se destaca pela forma como evolui com seu protagonista, amadurecendo o tom à medida que Harry
+                           e seus amigos crescem, lidando com temas complexos como a morte, o amor, a injustiça e a importância do sacrifício.
+                            A magia de Harry Potter não está apenas nos feitiços e poções, mas na forma como explora a força do bem e da amizade 
+                            para superar as trevas mais profundas.</p>
+                    
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">The Witcher</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A série de "The Witcher" é única por não começar de forma linear. Os primeiros livros são coleções de contos
+                         que nos apresentam a Geralt e ao mundo complexo em que ele vive. Geralt é um personagem cínico, mas com um 
+                         forte código moral, que muitas vezes o coloca em conflito com o preconceito e a corrupção humana. A narrativa 
+                         principal se inicia quando ele aceita a tarefa de proteger Ciri, uma jovem com poderes misteriosos e uma 
+                         linhagem nobre que a torna alvo de reinos, magos e monstros. A história deles é um épico de fantasia com 
+                         influências do folclore eslavo, explorando temas como o destino, a família (escolhida, não de sangue) e a 
+                         complexidade das relações humanas e não-humanas. "The Witcher" se destaca por sua moralidade ambígua, onde os
+                          "monstros" nem sempre são os mais assustadores e as ações dos "heróis" têm consequências profundas e muitas
+                           vezes trágicas.
+                    </p>
+                    
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogos Vorazes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A narrativa nos leva para o sombrio mundo de Panem, onde os Jogos Vorazes são 
+                        a prova máxima do poder da Capital sobre os distritos. Katniss, uma caçadora habilidosa 
+                        e independente, se oferece como tributo no lugar de sua irmã mais nova, um ato de amor 
+                        que a leva diretamente para a arena. Lá, ela e Peeta Mellark, o outro tributo de seu distrito, 
+                        devem usar sua inteligência e carisma para sobreviver, enquanto manipulam a mídia a seu favor.
+                         A série vai muito além da ação na arena; ela é uma crítica social poderosa sobre a exploração,
+                          a desigualdade, a propaganda e a desumanização. A jornada de Katniss é marcada por traumas,
+                           perdas e decisões difíceis, mostrando como um indivíduo pode se tornar um símbolo de esperança
+                            para toda uma nação, mesmo sem querer essa responsabilidade.</p>
+                    
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+       
+            
+        </div>
+        <p class="my-5 text-center">© fabysbooks2025. Produzido por Fabielli Gruchowski</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
